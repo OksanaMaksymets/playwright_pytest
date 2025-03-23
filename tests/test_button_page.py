@@ -1,6 +1,6 @@
 import re
 from playwright.sync_api import Page, expect
-from button_page import ButtonPage
+from pages.button_page import ButtonPage
 
 def test_has_title(page: Page):
     button_page = ButtonPage(page)
